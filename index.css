@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+header {
+    background: url('./images/pittza.jpeg') center center / cover no-repeat;
+    height: 20vh;
+    width: 600px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+header h1{
+    position: relative;
+    top: 70px;
+    font-size: 5em;
+    color: #352a61; 
+}
+
+.container{
+    display: block;
+    margin: auto;
+    background-color:lightgrey;
+    width: 600px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.card{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.countbtn {
+    margin: 0 5px;
+  }
+
+.card-end{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.card-mid {
+    margin: 0 50px;
+    line-height: 16.8px; /* 60% */
+    text-align: left;
+    font-size: 20px;
+}
+
+.card-emoji {
+    text-align: center;
+    font-family: Inter;
+    font-size: 78.72px;
+    line-height: 98.4px; /* 125% */  
+}
+
+.card-ingredients{
+    width: 300px;
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-price{
+    font-size: 20px;
+    line-height: 16.8px; /* 60% */
+}
+ #total-price {
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 20px;
+ }
+
+.selected-items{
+    font-size: 20px;
+    display: flex; 
+    line-height: 16.8px; /* 60% */
+    justify-content: space-between;
+    margin: 0 20px;
+   
+}
+
+.your-order{
+    font-size: 20px;
+    text-align: center;
+    line-height: 16.8px; /* 60% */
+}
+
+#purchase-btn {
+    display: block;
+    margin: auto;
+    width: 560px;
+    padding: 18px 175px 18px 194px;
+    justify-content: center;
+    align-items: center;
+    color: var(--white, #FFF);
+    font-family: Verdana;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    border-radius: 3px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    font-size: 16px;
+}
+
+#orders-section{
+    visibility: hidden;
+}
+#consent-form{
+    display: block;
+    margin: auto;
+}
+
+#modal{
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 420px;
+    width: 350px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background: #FFF;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.modal-input{
+    display: block;
+    margin: 30 auto;
+    width: 300px;
+    justify-content: center;
+    line-height: 40px; /* 150% */
+}
+#modal-btn{
+    display: block;
+    width: 300px;
+    justify-content: center;
+    margin: auto ;
+    line-height: 40px; /* 150% */
+    border-radius: 3.89px;
+    background: #16DB99;
+}
+.summary-purchase{
+    text-align: center;
+    margin: 50 auto;
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 3px;
+    background: #ECFDF5;
+    color: #065F46;
+}
